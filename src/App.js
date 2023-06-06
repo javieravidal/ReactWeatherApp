@@ -1,13 +1,12 @@
 import './App.css';
+import React from 'react';
+import WeatherSearch from './WeatherSearch';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, world!
-        </p>
-      </header>
+      <h1>Weather App</h1>
+      <WeatherSearch />
     </div>
   );
 }
